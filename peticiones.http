@@ -229,7 +229,7 @@ GET {{base}}/resumen
 # ------------------------------------------------------------
 
 # Cambie esta dirección por la de su servicio en Render (sin / al final)
-@produccion = https://serviclima-api-xxxx.onrender.com
+@produccion = https://serviclima-api.onrender.com
 
 ### Headers de seguridad: revise la respuesta (helmet, CORS y RateLimit)
 GET {{base}}/departamentos
@@ -251,12 +251,12 @@ Content-Type: application/json
 
 {
   "cliente": "Ferretería El Progreso",
-  "nit": "4455667-8",
+  "nit": "555444-3",
   "departamento": "Guatemala",
   "categoria": "Mantenimiento preventivo",
   "tecnico": "Ana Chacón",
   "fecha": "2026-11-18",
   "horas": 2,
-  "monto": 650,
+  "monto": 850,
   "estado": "pendiente"
 }
